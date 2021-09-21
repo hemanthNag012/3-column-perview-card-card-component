@@ -1,0 +1,156 @@
+body{
+  width: 1440px;
+  height: 800px;
+  margin: 0px;
+}
+
+
+/* fontfamily
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
+*/
+
+.parentss{
+  padding: 170px 260px 130px 260px;
+  margin: 0 auto 0 auto;
+}
+
+.cardss-component{
+  width: 920px;
+  /* width:63.89px; 920px */
+  height: 500px;
+}
+
+.cardss{
+  width: 25%;      /*230px*/
+  height: 410px;
+  display:inline-block;
+  margin:0;
+  padding:50px 35px 40px 45px;
+  position: relative;
+}
+
+.top1{
+  width: 100%;
+  height:45px;
+}
+
+
+
+
+.middle1 h1{
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 900;
+  font-size: 45px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.middle1 p{
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.8;
+  width: 90%;
+}
+
+.card1{
+  background-color:hsl(31, 77%, 52%) ;
+  border-radius: 8px 0 0 8px;
+}
+.card2{
+  background-color: hsl(184, 100%, 22%);
+}
+.card3{
+  width: 23.91%; /*220px*/
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 8px 8px 0;
+}
+
+.card3 p{
+  width: 95%;
+}
+
+.bottombutton1{
+  position: absolute;
+  bottom: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+.btn1{
+  height: 50px;
+  width: 150px;
+  padding: 0;
+  margin: 0;
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 3rem;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+}
+
+.btn11{
+  color:hsl(31, 77%, 52%);
+}
+
+.btn22{
+  color: hsl(184, 100%, 22%);
+}
+
+.btn33{
+  color:hsl(179, 100%, 13%);
+}
+
+.btn1:hover{
+  color:white;
+  transition: 0.4s;
+}
+
+.btn11:hover{
+  background-color: hsl(31, 77%, 52%);
+}
+
+.btn22:hover{
+  background-color: hsl(184, 100%, 22%);
+}
+
+.btn33:hover{
+  background-color: hsl(179, 100%, 13%);
+}
+
+@media (max-width:550px) {
+  body{
+    width: 100%;
+  }
+  .parentss{
+    width: 84%;
+    padding: 75px 35px 75px 35px;
+    margin: 0;
+  }
+  .cardss-component{
+    width: 80%;
+  }
+
+  .cardss{
+    width:83.5%;
+    height: 360px;
+    display: block;
+    padding: 50px 30px 50px 40px;
+  }
+
+
+  .middle1 p{
+    width: 80%;
+  }
+
+  .card1{
+    border-radius: 8px 8px 0 0;
+  }
+
+  .card3{
+    border-radius: 0 0 8px 8px;
+  }
+  
+}
